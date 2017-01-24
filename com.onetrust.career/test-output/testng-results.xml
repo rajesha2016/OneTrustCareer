@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98806" started-at="2017-01-24T05:40:09Z" finished-at="2017-01-24T05:41:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98806" started-at="2017-01-24T05:40:09Z" finished-at="2017-01-24T05:41:48Z">
+      <class name="com.onetrust.career.VerifyJobRequirement">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.onetrust.career.VerifyJobRequirement@38921c]" name="testSetUp" is-config="true" duration-ms="12341" started-at="2017-01-24T11:10:09Z" finished-at="2017-01-24T11:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyRequirement()[pri:0, instance:com.onetrust.career.VerifyJobRequirement@38921c]" name="verifyRequirement" duration-ms="83873" started-at="2017-01-24T11:10:21Z" finished-at="2017-01-24T11:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequirement -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.onetrust.career.VerifyJobRequirement@38921c]" name="tearDown" is-config="true" duration-ms="2536" started-at="2017-01-24T11:11:45Z" finished-at="2017-01-24T11:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRequirement status=SUCCESS method=VerifyJobRequirement.verifyRequirement()[pri:0, instance:com.onetrust.career.VerifyJobRequirement@38921c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.onetrust.career.VerifyJobRequirement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
